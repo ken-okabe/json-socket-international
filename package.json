@@ -1,0 +1,32 @@
+{
+  "name": "json-socket-international",
+  "description": "An easy way to send JSON over TCP using sockets with international characters fix",
+  "main": "./lib/json-socket",
+  "author": "Ken Okabe",
+  "version": "0.4.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kenokabe/json-socket-international.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kenokabe/json-socket-international/issues"
+  },
+  "maintainers": [
+    {
+      "name": "Ken Okabe",
+      "email": "kenokabe@gmail.com"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "async": "^2.0.1",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --recursive test"
+  }
+}
