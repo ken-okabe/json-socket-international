@@ -3,7 +3,7 @@
   "description": "An easy way to send JSON over TCP using sockets with international characters fix",
   "main": "./lib/json-socket",
   "author": "Ken Okabe",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/kenokabe/json-socket-international.git"
